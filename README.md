@@ -50,3 +50,15 @@ To complete this step, we perform the following:
 #### Challenge 6: Passing your first Unit Test
 
 Created a new file inside lib directory for DockingStation class, and defined the class. Used 'require <file>' to link the file to the spec file.
+
+#### Challenge 7: Back to the feature
+
+Run the following feature_test from Irb:
+
+3.0.0 :003 > docking_station.release_bike
+
+Error: NoMethodError (undefined method `release_bike' for #<DockingStation:0x00007fb9fca8f490>)
+
+**'what is the error telling me to do next?'**
+
+To define 'release_bike' method inside my newly created DockingStation class so we can use it with its instances
