@@ -70,3 +70,19 @@ Now we repeat the cycle again:
 1. We run feature test from the command line
 2. We write a unit test for the unit of behavior, in this case, release_bike method, in our spec file (Note: this is a failing test, and it will fail in the same way as our feature test).
 3. Then we make our unit test pass by adding the simplest code possible - in this case, by defining our release_bike method inside the DockingStation class.
+
+#### Challenge 9: Building a bike
+
+Again, follow these steps
+
+1. Feature test the bike object to see if it is running, i.e, run bike = docking_station.release_bike from irb, which gives us nil. Then run bike.working?, which will give us error message.
+2. Read the following error message:
+   NoMethodError (undefined method `working?' for nil:NilClass)
+
+_What does it tell us?_
+
+That our bike object does not exist - it is nil!
+
+3. Create a spec file with the unit test describing the Bike class and run it
+
+4. Make it pass in the simplest way possible by changing the code in our newly created application file (i.e. bike.rb)
