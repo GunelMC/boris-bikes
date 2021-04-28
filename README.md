@@ -46,3 +46,7 @@ To complete this step, we perform the following:
 - Create a new spec file for your DockingStation object
 - Set up the spec file to describe a DockingStation
 - Run RSpec from the Command Line
+
+#### Challenge 6: Passing your first Unit Test
+
+Created a new file inside lib directory for DockingStation class, and defined the class. Used 'require <file>' to link the file to the spec file.
