@@ -62,3 +62,11 @@ Error: NoMethodError (undefined method `release_bike' for #<DockingStation:0x000
 **'what is the error telling me to do next?'**
 
 To define 'release_bike' method inside my newly created DockingStation class so we can use it with its instances
+
+#### Challenge 8: Back to the unit
+
+Now we repeat the cycle again:
+
+1. We run feature test from the command line
+2. We write a unit test for the unit of behavior, in this case, release_bike method, in our spec file (Note: this is a failing test, and it will fail in the same way as our feature test).
+3. Then we make our unit test pass by adding the simplest code possible - in this case, by defining our release_bike method inside the DockingStation class.
