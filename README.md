@@ -19,3 +19,11 @@ User story 1 & 2
 
 docking_station --> release_bike --> bike --> person
 person --> working? ---> use_bike
+
+#### Challenge 3: From a Domain Model to a Feature Test
+
+From irb run:
+
+3.0.0 :001 > docking_station = DockingStation.new created this error:
+
+Result: NameError (uninitialized constant DockingStation)
