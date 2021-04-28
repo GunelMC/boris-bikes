@@ -38,4 +38,11 @@ Result: NameError (uninitialized constant DockingStation)
 
 #### Challenge 5: From Feature Tests to Unit Tests
 
-Task: write a failing unit test which would give you a similar error message, then go and fix it in your application document
+Task: write a failing unit test which would give you a similar error message to the feature test we ran from irb previously.
+
+To complete this step, we perform the following:
+
+- Initialise RSpec within your project
+- Create a new spec file for your DockingStation object
+- Set up the spec file to describe a DockingStation
+- Run RSpec from the Command Line
