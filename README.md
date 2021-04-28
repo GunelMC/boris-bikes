@@ -31,7 +31,11 @@ Result: NameError (uninitialized constant DockingStation)
 #### Challenge 4: Errors are good
 
 **Type of Error:** NameError
-**File path:** /Users/username/.rvm/rubies/ruby-3.0.0/bin/irb:1:in '<main>'
+**File path:** /Users/username/.rvm/rubies/ruby-3.0.0/bin/irb:11:in '<main>'
 **Line Number:** 1
 **What does it mean?** It means that the name is undefined, we have not defined our class yet
 **How to solve it?** Define the class DockingStation in the application file
+
+#### Challenge 5: From Feature Tests to Unit Tests
+
+Task: write a failing unit test which would give you a similar error message, then go and fix it in your application document
