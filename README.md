@@ -27,3 +27,11 @@ From irb run:
 3.0.0 :001 > docking_station = DockingStation.new created this error:
 
 Result: NameError (uninitialized constant DockingStation)
+
+#### Challenge 4: Errors are good
+
+**Type of Error:** NameError
+**File path:** /Users/username/.rvm/rubies/ruby-3.0.0/bin/irb:1:in '<main>'
+**Line Number:** 1
+**What does it mean?** It means that the name is undefined, we have not defined our class yet
+**How to solve it?** Define the class DockingStation in the application file
