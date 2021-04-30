@@ -4,10 +4,12 @@
 
 User story 1 & 2
 
-| User Story   | As a User    | I want to                                     | So that I can                  |
-| ------------ | ------------ | --------------------------------------------- | ------------------------------ |
-| User Story 1 | As a person, | I'd like a docking station to release a bike. | So that I can use a bike,      |
-| User Story 2 | As a person, | I'd like to see if a bike is working.         | So that I can use a good bike, |
+| User Story   | As a User              | I want to                                                               | So that I can                                        |
+| ------------ | ---------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------- |
+| User Story 1 | As a person            | I'd like a docking station to release a bike.                           | So that I can use a bike                             |
+| User Story 2 | As a person            | I'd like to see if a bike is working.                                   | So that I can use a good bike                        |
+| User Story 3 | As a system maintainer | I'd like docking stations not to accept more bikes than their capacity. | So that I can control the distribution of bikes      |
+| User Story 4 | As a system maintainer | I want a docking station to have a default capacity of 20 bikes.        | So that So that I can plan the distribution of bikes |
 
 | Objects         |     Messages |
 | :-------------- | -----------: |
