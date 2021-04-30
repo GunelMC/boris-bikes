@@ -6,12 +6,6 @@
 
 - TDD pair programming challenge in the first week of Makers.
 
-## Build status
-
-- Day 1 - Chapter 7 Complete
-- Day 2 - Chapter 10 Complete
-- Day 3 - Chapter 15 Complete
-
 ## Code style
 
 - Test-driven development
