@@ -27,6 +27,14 @@ describe DockingStation do
     expect(subject.release_bike).to eq(bike)
   end 
 
+  it 'raises a broken bike error' do
+    broken_bike = Bike.new
+    broken_bike.report_broken
+    subject.dock(broken_bike)
+    p broken_bike.broken?
+    expect { subject.release_bike }. to raise_error('The bike is broken')
+  end
+
   it 'raises an error message when there are no bikes' do
     expect { subject.release_bike }.to raise_error('No bikes in the station')
   end 
